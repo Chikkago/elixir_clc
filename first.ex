@@ -6,7 +6,7 @@ defmodule Calculator do
     do_subtract(x, y)
   end
   def subtract(x, y) when x < y do
-    "x меньше чем y"
+    "x is less than y"
   end
 
   defp do_subtract(x, y) do
